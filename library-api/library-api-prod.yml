@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    platform: "PostgreSQL"
+    driverClassName: "com.postgresql.jdbc.Driver"
+    url: "jdbc:postgresql://localhost:5432/library-prod"
+    username: "mvargas"
+    password: ""
+  jpa:
+    database: "PostgreSQL"
+    properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
